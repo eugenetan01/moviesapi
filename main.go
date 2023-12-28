@@ -35,7 +35,7 @@ func main() {
 	router := gin.Default()
 
 	// Connect to MongoDB
-	mongoURI := os.Getenv("MONGODB_EXT")
+	mongoURI := os.Getenv("MONGODB_INT")
 	print(mongoURI)
 	clientOptions := options.Client().ApplyURI(mongoURI)
 	client, err := mongo.Connect(context.Background(), clientOptions)
