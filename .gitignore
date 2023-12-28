@@ -1,0 +1,7 @@
+credentials.json
+deploy.tf
+go.sum
+terraform*
+.terraform*
+dump
+test
