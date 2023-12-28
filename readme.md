@@ -20,9 +20,7 @@
 
 **6. Command to tag instance**
 
-```
-podman tag localhost/moviesapi:latest docker.io/eugenetan0/moviesapi:latest
-```
+`podman tag localhost/moviesapi:latest docker.io/eugenetan0/moviesapi:latest`
 
 **7. Command to run on push to Dockerhub**
 
@@ -32,14 +30,10 @@ podman tag localhost/moviesapi:latest docker.io/eugenetan0/moviesapi:latest
 
 Skip steps 5 - 7 and do:
 
-```
-terraform init
-```
+`terraform init`
 
 and
 
-```
-terraform apply
-```
+`terraform apply`
 
 to push build, push and deploy directly to GCP cloud run
